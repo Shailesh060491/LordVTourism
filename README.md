@@ -1,112 +1,168 @@
-# LordV Tourism - React Tourism Website
+# LordV Tourism Website
 
-A modern, responsive tourism website built with React, Vite, and Tailwind CSS. This static website showcases various Indian tourist destinations with beautiful UI and smooth animations.
+A modern, responsive tourism website built with React, Vite, and Tailwind CSS. This website showcases India's incredible destinations, travel packages, and professional cleaning services.
 
-## 🚀 Features
+## 🌟 Features
 
-- **Modern Design**: Clean, responsive design with Tailwind CSS
-- **Smooth Animations**: Framer Motion animations for enhanced user experience
-- **Mobile Responsive**: Optimized for all device sizes
-- **Static Content**: No backend required - all content is hardcoded
-- **SEO Friendly**: Proper meta tags and semantic HTML
-- **Fast Loading**: Optimized with Vite for quick page loads
+### Tourism Services
+- **Destinations**: Explore famous Indian destinations with detailed information
+- **Travel Packages**: Curated tour packages with pricing and inclusions
+- **Photo Gallery**: Beautiful image gallery with category filtering
+- **About Us**: Company information and team details
+- **Contact**: Multiple contact methods and WhatsApp integration
 
-## 📄 Pages
+### Professional Services
+- **Deep Cleaning**: Comprehensive cleaning solutions for homes and offices
+- **Regular Housekeeping**: Daily, weekly, or monthly cleaning services
+- **Office Cleaning**: Professional commercial space cleaning
 
-1. **Home Page** - Hero section, popular destinations, travel packages, testimonials
-2. **Destinations** - Grid of famous Indian tourist spots with details
-3. **Packages** - Travel packages with pricing and features
-4. **Gallery** - Photo gallery with category filters and modal view
-5. **About** - Company information, team, mission, and values
-6. **Contact** - Contact form, office information, and FAQ
+### Technical Features
+- **Responsive Design**: Mobile-first approach with Tailwind CSS
+- **Image Optimization**: Fallback images and loading states
+- **WhatsApp Integration**: Direct messaging with pre-filled messages
+- **Smooth Animations**: Framer Motion for enhanced user experience
+- **Professional Color Scheme**: Matching lordvservices.com branding
 
-## 🛠️ Tech Stack
+## 🚀 Getting Started
 
-- **React 18** - Frontend framework
-- **Vite** - Build tool and development server
-- **Tailwind CSS** - Utility-first CSS framework
-- **React Router** - Client-side routing
-- **Framer Motion** - Animation library
+### Prerequisites
+- Node.js (version 14 or higher)
+- npm or yarn
 
-## 📦 Installation
+### Installation
 
-1. **Navigate to the project directory:**
+1. **Clone the repository**
    ```bash
-   cd C:\Users\Shailesh\source\repos\lordvtourism
+   git clone https://github.com/yourusername/lordvtourism.git
+   cd lordvtourism
    ```
 
-2. **Install dependencies:**
+2. **Install dependencies**
    ```bash
    npm install
    ```
 
-3. **Start the development server:**
+3. **Start the development server**
    ```bash
    npm run dev
    ```
 
-4. **Build for production:**
-   ```bash
-   npm run build
-   ```
+4. **Open your browser**
+   Navigate to `http://localhost:5173`
 
-5. **Preview production build:**
-   ```bash
-   npm run preview
-   ```
+## 📁 Project Structure
+
+```
+lordvtourism/
+├── public/
+├── src/
+│   ├── assets/
+│   │   ├── Lordv_Logo.jpg
+│   │   ├── Sahebrao.jpg
+│   │   ├── Shrutika.jpg
+│   │   └── lordv-logo.svg
+│   ├── components/
+│   │   ├── Footer.jsx
+│   │   ├── ImageWithFallback.jsx
+│   │   ├── Navbar.jsx
+│   │   └── WhatsAppButton.jsx
+│   ├── pages/
+│   │   ├── About.jsx
+│   │   ├── Contact.jsx
+│   │   ├── Destinations.jsx
+│   │   ├── Gallery.jsx
+│   │   ├── Home.jsx
+│   │   ├── Packages.jsx
+│   │   └── Services.jsx
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+├── package.json
+├── tailwind.config.js
+├── vite.config.js
+└── README.md
+```
+
+## 🛠️ Technologies Used
+
+- **React 18**: Modern React with hooks and functional components
+- **Vite**: Fast build tool and development server
+- **Tailwind CSS**: Utility-first CSS framework
+- **Framer Motion**: Animation library for smooth transitions
+- **React Router**: Client-side routing
+- **Responsive Design**: Mobile-first approach
+
+## 📱 Pages
+
+1. **Home**: Hero section with company overview
+2. **Destinations**: Famous Indian destinations with details
+3. **Packages**: Travel packages with pricing and features
+4. **Gallery**: Photo gallery with category filtering
+5. **Services**: Professional cleaning services
+6. **About**: Company story, mission, and team information
+7. **Contact**: Contact form and company details
+
+## 📞 Contact Information
+
+- **Phone**: +91 92265 51564, +91 92265 51568
+- **Director Phone**: +91 77700 12001
+- **Email**: support@lordvtourism.com, hr@lordvtourism.com, admin@lordvtourism.com
+- **Address**: 60 Feet Rd, opp. Amazon Prime, near Bhairavnath Bharat Gas Agency, Shivneri Colony, Agrasen Nagar Society, Pimple Gurav, Pune, Pimpri-Chinchwad, Maharashtra 411061
+- **WhatsApp**: +91 92265 51564
+
+## 👥 Team
+
+- **Mrs. Shrutika Rautwar** - Director
+- **Mr. Sahebrao Rautwar** - Founder & CEO
+- **Travel Experts Team** - Local Guides & Specialists
+
+## 🚀 Deployment
+
+### GitHub Pages
+1. Push your code to GitHub
+2. Go to repository Settings > Pages
+3. Select source as "GitHub Actions"
+4. The site will be automatically deployed
+
+### Netlify
+1. Connect your GitHub repository to Netlify
+2. Set build command: `npm run build`
+3. Set publish directory: `dist`
+4. Deploy automatically on every push
+
+### Vercel
+1. Import your GitHub repository to Vercel
+2. Vercel will automatically detect Vite configuration
+3. Deploy with zero configuration
+
+## 📝 Available Scripts
+
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run preview` - Preview production build
+- `npm run lint` - Run ESLint
 
 ## 🎨 Customization
 
 ### Colors
-The website uses a custom color palette defined in `tailwind.config.js`:
-- Primary: Blue shades (#3b82f6)
-- Secondary: Green shades (#22c55e)
+The project uses a professional color scheme defined in `tailwind.config.js`:
+- **Primary**: Slate/gray tones
+- **Secondary**: Red accents
+- **Accent**: Blue tones
 
 ### Images
-All images are sourced from Unsplash with royalty-free licenses. To add your own images:
-1. Place images in `src/assets/` directory
-2. Update image paths in components
-3. For gallery images, add them to `src/assets/gallery/`
-
-### Content
-All text content is hardcoded in components. To modify:
-1. Edit the respective component files in `src/pages/`
-2. Update arrays and objects containing the content
-3. No external data fetching required
-
-## 📱 Responsive Design
-
-The website is fully responsive with breakpoints:
-- Mobile: < 768px
-- Tablet: 768px - 1024px
-- Desktop: > 1024px
-
-## 🎭 Animations
-
-Framer Motion animations are used throughout:
-- Page transitions
-- Scroll-triggered animations
-- Hover effects
-- Modal animations
-
-## 🚀 Deployment
-
-The website can be deployed to any static hosting service:
-- Vercel
-- Netlify
-- GitHub Pages
-- AWS S3 + CloudFront
-
-## 📞 Support
-
-For any questions or support, contact:
-- Email: info@lordvtourism.com
-- Phone: +91 98765 43210
+- Replace images in `src/assets/` folder
+- Update image references in components
+- All images have fallback protection
 
 ## 📄 License
 
-This project is for educational and demonstration purposes.
+This project is proprietary to LordV Tourism. All rights reserved.
+
+## 🤝 Contributing
+
+This is a private project. For any suggestions or issues, please contact the development team.
 
 ---
 
-**Made with ❤️ in India**
+**LordV Tourism** - Discover the beauty of India with our curated travel experiences.
