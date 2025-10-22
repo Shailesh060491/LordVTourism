@@ -7,7 +7,6 @@ import Home from './pages/Home';
 import Destinations from './pages/Destinations';
 import Packages from './pages/Packages';
 import Gallery from './pages/Gallery';
-import Services from './pages/Services';
 import About from './pages/About';
 import Contact from './pages/Contact';
 
@@ -26,7 +25,6 @@ function App() {
             <Route path="/destinations" element={<Destinations />} />
             <Route path="/packages" element={<Packages />} />
             <Route path="/gallery" element={<Gallery />} />
-            <Route path="/services" element={<Services />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
