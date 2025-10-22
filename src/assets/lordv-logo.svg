@@ -1,0 +1,23 @@
+<svg width="200" height="140" viewBox="0 0 200 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Shield with scalloped top -->
+  <path d="M100 15 L110 20 L115 25 L115 35 L110 40 L100 45 L90 40 L85 35 L85 25 L90 20 Z" fill="#8B4513" stroke="#D2B48C" stroke-width="2"/>
+  
+  <!-- LV Letters inside shield -->
+  <text x="95" y="35" fill="#D2B48C" font-family="Arial, sans-serif" font-size="16" font-weight="bold">L</text>
+  <text x="105" y="35" fill="#D2B48C" font-family="Arial, sans-serif" font-size="16" font-weight="bold">V</text>
+  
+  <!-- Handshake - Left hand (dark brown) -->
+  <g transform="translate(85, 55)">
+    <path d="M0 8 Q-3 5 0 2 Q3 5 6 8 Q3 11 0 8" fill="#8B4513"/>
+    <path d="M2 6 Q-1 3 2 0 Q5 3 8 6" fill="#8B4513"/>
+  </g>
+  
+  <!-- Handshake - Right hand (light beige) -->
+  <g transform="translate(95, 55)">
+    <path d="M0 8 Q3 5 6 8 Q3 11 0 8" fill="#D2B48C"/>
+    <path d="M2 6 Q5 3 8 6 Q5 9 2 6" fill="#D2B48C"/>
+  </g>
+  
+  <!-- LORD V Text -->
+  <text x="100" y="90" text-anchor="middle" fill="#8B4513" font-family="Arial, sans-serif" font-size="20" font-weight="bold">LORD V</text>
+</svg>
